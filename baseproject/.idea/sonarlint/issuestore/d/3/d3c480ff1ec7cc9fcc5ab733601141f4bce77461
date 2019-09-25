@@ -1,0 +1,5 @@
+
+ksquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Öø›¦ýÿÿÿÿ8¶™®“Ö-
+vsquid:UselessImportCheck"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8¶™®“Ö-
+asquid:UselessImportCheck
+"6Remove this unused import 'javax.annotation.Resource'.(î¾Ì—8ƒ¼²“Ö-

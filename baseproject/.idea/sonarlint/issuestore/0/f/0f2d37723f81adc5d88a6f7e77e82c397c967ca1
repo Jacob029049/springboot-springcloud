@@ -1,0 +1,4 @@
+
+wsquid:UselessImportCheck"IRemove this unused import 'org.springframework.web.servlet.ModelAndView'.(Η¨ÿδϋÿÿÿÿ8°ΥπΦ-
+squid:UselessImportCheck"SRemove this unused import 'org.springframework.web.bind.annotation.RestController'.(±νώ΅ώÿÿÿÿ8°ΥπΦ-
+isquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(°ΆΖϊÿÿÿÿ8°ΥπΦ-
