@@ -5,11 +5,14 @@
     <!--
       WARNING - @mbg.generated
     -->
-    <result column="id" jdbcType="BIGINT" property="id" />
+    <id column="id" jdbcType="BIGINT" property="id" />
     <result column="activity_code" jdbcType="VARCHAR" property="activityCode" />
     <result column="need_members" jdbcType="INTEGER" property="needMembers" />
     <result column="order_code" jdbcType="VARCHAR" property="orderCode" />
     <result column="owner" jdbcType="VARCHAR" property="owner" />
     <result column="rule_id" jdbcType="BIGINT" property="ruleId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="expire_time" jdbcType="TIMESTAMP" property="expireTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
   </resultMap>
 </mapper>

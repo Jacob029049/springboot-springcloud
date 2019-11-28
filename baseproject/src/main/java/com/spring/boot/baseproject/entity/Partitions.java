@@ -1,8 +1,10 @@
 package com.spring.boot.baseproject.entity;
 
+import java.util.Date;
 import javax.persistence.*;
 
 public class Partitions {
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -19,6 +21,15 @@ public class Partitions {
 
     @Column(name = "rule_id")
     private Long ruleId;
+
+    @Column(name = "create_time")
+    private Date createTime;
+
+    @Column(name = "expire_time")
+    private Date expireTime;
+
+    @Column(name = "update_time")
+    private Date updateTime;
 
     /**
      * @return id
@@ -102,5 +113,47 @@ public class Partitions {
      */
     public void setRuleId(Long ruleId) {
         this.ruleId = ruleId;
+    }
+
+    /**
+     * @return create_time
+     */
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    /**
+     * @param createTime
+     */
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
+    /**
+     * @return expire_time
+     */
+    public Date getExpireTime() {
+        return expireTime;
+    }
+
+    /**
+     * @param expireTime
+     */
+    public void setExpireTime(Date expireTime) {
+        this.expireTime = expireTime;
+    }
+
+    /**
+     * @return update_time
+     */
+    public Date getUpdateTime() {
+        return updateTime;
+    }
+
+    /**
+     * @param updateTime
+     */
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
     }
 }

@@ -1,4 +1,11 @@
 
-wsquid:UselessImportCheck"IRemove this unused import 'org.springframework.web.servlet.ModelAndView'.(Ç¨ÿäûÿÿÿÿ8°ÕğÖ-
-squid:UselessImportCheck"SRemove this unused import 'org.springframework.web.bind.annotation.RestController'.(±íş¡şÿÿÿÿ8°ÕğÖ-
-isquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(°¢ÆŸúÿÿÿÿ8°ÕğÖ-
+ysquid:UselessImportCheck	"IRemove this unused import 'org.springframework.web.servlet.ModelAndView'.(Ç¨ÿäûÿÿÿÿ8º¦ÎåÖ-
+vsquid:UselessImportCheck"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8º¦ÎåÖ-
+nsquid:UselessImportCheck"DRemove this unused import 'com.spring.boot.baseproject.entity.User'.(½µ±<8º¦ÎåÖ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ¶èî8º¦ÎåÖ-
+asquid:UselessImportCheck"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8º¦ÎåÖ-
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8º¦ÎåÖ-
+Usquid:S1481"7Remove this unused "isOrderCarveUpAble" local variable.(øî¹á8º¦ÎåÖ-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8º¦ÎåÖ-
+ksquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(°¢ÆŸúÿÿÿÿ8º¦ÎåÖ-
